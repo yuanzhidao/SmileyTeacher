@@ -12,5 +12,11 @@ import { RouterLink, RouterView } from "vue-router";
 		</div>
 	</header>
 
-	<RouterView class="m-4" />
+	<RouterView class="m-4 min-h-screen" />
+
+	<footer class="bottom-0 w-full py-4 bg-slate-300">
+		<div class="flex justify-center items-center flex-col">
+			<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">沪ICP备2022026478号-3</a>
+		</div>
+	</footer>
 </template>
