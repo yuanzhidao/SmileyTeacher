@@ -6,4 +6,8 @@
 	body {
 		@apply bg-gradient-to-br from-blue-100 to-slate-100 min-h-screen min-w-full;
 	}
+
+	#app {
+		@apply max-w-5xl mx-auto;
+	}
 }

@@ -4,15 +4,15 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
 	<header>
-		<div class="border border-solid shadow-md backdrop-blur-2xl rounded-b-xl mx-4 bg-white/40 flex justify-center items-center">
-			<nav class="m-4">
-				<RouterLink to="/" class="mr-4">主页</RouterLink>
+		<div class="border border-solid shadow-md backdrop-blur-2xl rounded-b-xl mx-4 bg-white/40 flex justify-center items-center md:text-4xl">
+			<nav class="m-4 md:m-6">
+				<RouterLink to="/" class="mr-4 md:mr-4">主页</RouterLink>
 				<RouterLink to="/chq">小小蔡</RouterLink>
 			</nav>
 		</div>
 	</header>
 
-	<RouterView class="m-4 min-h-screen" />
+	<RouterView class="m-4 min-h-screen md:m-8" />
 
 	<footer class="bottom-0 w-full py-4 bg-slate-300">
 		<div class="flex justify-center items-center flex-col">
